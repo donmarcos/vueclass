@@ -1,6 +1,6 @@
 # Starter Instructions
 
-1. After you cloned this: `$ git clone https://github.com/kobione/vue-simplest`
+1. Cloned this repo: `$ git clone https://github.com/kobione/vue-simplest`
 
 2. Go into the directory: `$ cd vue-simplest`
 
