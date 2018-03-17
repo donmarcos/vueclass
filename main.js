@@ -4,5 +4,11 @@ new Vue({
     return {
       msg: 'Hello World!'
     }
-  }
+  },
+   methods: {
+
+       sayHello: function (){
+       	 return this.msg;
+       },
+    }
 })
