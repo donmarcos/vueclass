@@ -8,7 +8,7 @@ new Vue({
    methods: {
 
        sayHello: function (){
-       	 return this.msg;
+       	 return 'My Hello world';
        },
     }
 })
