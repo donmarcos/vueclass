@@ -16,7 +16,7 @@ new Vue({
          this.msg = "Hello! dude";
        	 return this.msg;
        },
-       increase: function (step) {
+       increase: function (step, event) {
        	 this.counter += step;
        },
        updateCorrdinates: function(event){
