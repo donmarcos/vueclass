@@ -8,6 +8,7 @@ new Vue({
       counter: 0,
       x: 0,
       y: 0,
+      name: 'Max',
     }
   },
    methods: {
