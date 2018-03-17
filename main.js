@@ -3,7 +3,7 @@ new Vue({
     data() {
     return {
       msg: 'Hello World!',
-      link: 'www.google.com'
+      link: 'http://www.google.com'
     }
   },
    methods: {
