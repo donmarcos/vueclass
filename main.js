@@ -9,7 +9,9 @@ new Vue({
    methods: {
 
        sayHello: function (){
-       	 return 'My Hello world';
+         this.msg = "Hello! dude";
+       	 return this.msg;
        },
+
     }
 })
