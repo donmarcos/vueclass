@@ -19,9 +19,10 @@ new Vue({
        
     },
     watch: {
-    	counter: function(value) {
+    	counter: function(newVal, oldVal) {
     		// we set the vvue instance = vm
     		// since this is closure 
+        console.log('watcher counter new:'+newVal+' oldVal:' + oldVal) 
     		var vm = this;
     		setTimeout(function(){
               vm.counter = 0 ;
