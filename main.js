@@ -9,11 +9,13 @@ new Vue({
   },
    computed: {
       output: function (){
+        console.log('computed call here ')
         return this.counter > 5 ? 'Greater 5' : 'Smaller than 5'
       }
    },
    methods: {
        result: function (){
+         console.log('result method call here')
          return this.counter > 5 ? 'Greater 5' : 'Smaller than 5'
        }
        
@@ -24,9 +26,10 @@ new Vue({
     		// since this is closure 
         console.log('watcher counter new:'+newVal+' oldVal:' + oldVal) 
     		var vm = this;
-    		setTimeout(function(){
-              vm.counter = 0 ;
-    		} ,2000)
+        var _self  = this ;
+    		//setTimeout(function(){
+        //      vm.counter = 0 ;
+    		//} ,17000)
 
     	}
     }
